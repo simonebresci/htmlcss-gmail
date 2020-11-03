@@ -1,0 +1,186 @@
+*{
+  box-sizing: content-box;  /* Attivare border-box solo nell'esercizio bonous */
+  color: white;
+  /* border: 1px solid green; */
+}
+
+/* Container sfondo */
+.container-sfondo{
+  /* Container sfondo */
+  background-image: url("../img/sfondo.jpg");
+
+}
+/* /Container sfondo */
+
+/*  Container header + footer */
+.container-header, .container-footer{
+  padding: 15px 0px;
+}
+/*  /Container header + footer */
+
+/* Container header */
+.container-header{
+  position: relative;
+  height: 70px; /*ricorda: Sottrai valore padding sopra+sotto*/
+  border-bottom: 1px solid white;
+  line-height: 70px;
+}
+/* /Container header */
+
+/* Container logo */
+.container-logo{
+  width: 90px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle; /* allinea immagine al testo */
+}
+/* /Container logo */
+
+/* Container txt-header  */
+.container-txt-header{
+  position: absolute;
+  padding: 0px 10px;
+  width: 300px;
+  line-height: 70px;
+  display: inline-block;
+  transform: translate(0;-50%); /* CSS validator dà errore, ma lo ignoro per il momento*/
+}
+/* /Container txt-header  */
+
+/* Container txt-header2 - versione senza position absolute  */
+.container-txt-header2{
+  opacity: 0%;
+  color: red;
+  width: 300px;
+  font-size: 18px;
+  display: inline-block;
+}
+.container-txt-header2:hover{
+  opacity: 100%;
+}
+/* /Container txt-header2 - versione senza position absolute  */
+
+/* Container cerca */
+.container-cerca{
+  height: 20px;
+  padding: 10px 0;
+}
+/* /Container cerca */
+
+/* Container mails */
+.container-mails{
+  height: 190px;
+  /* border: 1px solid green; */
+}
+/* /Container mails */
+
+/* Container lista mail */
+.container-listamail{
+  height: 110px;
+  padding: 10px 0px;
+
+  /* Sintetizzare se possibile */
+  border-top: 1px;
+  border-left: 0px;
+  border-right:0px;
+  border-bottom: 1px;
+  border-color: white;
+  border-style: solid;
+
+}
+/* /Container lista mail */
+
+
+/* Container unreadcounter */
+.container-unreadcounter{
+  height: 50px;
+  padding: 10px 0;
+  font-size: 24px;
+  border-bottom: 1px solid white;
+}
+/* /Container unreadcounter */
+
+/* Div mail singola */
+.mailsingola{
+  height: 25px;
+  border: 1px solid black;
+  color: black;
+}
+/* /Div mail singola */
+
+/* Container main */
+.container-main{
+  height: 250px;
+}
+/* /Container main */
+
+/* Container footer */
+.container-footer{
+  /* border-top: 1px solid white; */
+  height: 70px; /*ricorda: Sottrai valore padding sopra+sotto*/
+  text-align: center;
+}
+/* /Container footer */
+
+/* Containr content */
+.container-content{
+  width: 60%; /* Meglio utilizzare i px in futuro */
+  height: 800px;
+  margin: 0 auto;
+}
+/* /Containr content */
+
+
+
+/* -----------   UTILITIES   ---------------*/
+
+/* Evidenzia in arancione */
+.evidenzia-arancione{
+  display: inline; /*Forza visualizzazione inline */
+  background-color: orange; /*usa rgb*/
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2em; /* 1em = fontsize */
+}
+/* /Evidenzia in arancione */
+
+
+/* Sfondo lightgrey */
+.sfondo-lightgrey{
+  background: lightgrey; /* usa rgb */
+}
+/* /Sfondo lightgrey */
+
+/* Sfondo white */
+.sfondo-white{
+  background: white; /* usa rgb */
+}
+/* /Sfondo white */
+
+/* Testo scuro */
+.txt-dark{
+  color:black;
+}
+/* /Testo scuro */
+
+/* Testo bianco */
+.txt-white{
+  color:black;
+}
+/* /Testo bianco */
+
+
+/* Testo grigio */
+.txt-grey{
+  color: rgb(100,100,100);
+}
+/* /Testo grigio */
+
+
+/* Testo grassetto */
+.txt-bold{
+  font-weight: bold;
+}
+/* /Testo grassetto */
+
+/* -----------   /UTILITIES   ---------------*/

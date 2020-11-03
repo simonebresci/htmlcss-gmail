@@ -1,0 +1,123 @@
+<!-- Commenti
+1) Consegna senza font personalizzati
+-->
+
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Link a CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- /Link a CSS -->
+
+    <title>Gmail</title>
+
+  </head>
+
+  <body>
+  <!-- Container sfondo -->
+  <div class="container-sfondo">
+
+    <!-- Container content -->
+    <div class="container-content">
+
+      <!-- Header -->
+      <header>
+        <!-- Container header -->
+        <div class="container-header">
+          <!-- Container logo + scritta -->
+          <div class="container-logo"> <!-- Nota: potevi dare una classe direttamente ad img -->
+            <img src="./img/logo.png" alt="icona logo Gmail">
+          </div>
+          <div class="container-txt-header"> <!-- potevi usare span -->
+           GMAIL
+           </div>
+           <div class="container-txt-header2">
+              Gmail senza position absolute
+           </div>
+           <!-- /Container logo + scritta -->
+        </div>
+        <!-- /Container header-->
+
+      </header>
+      <!-- /Header -->
+
+      <!-- Main -->
+      <main>
+        <!-- Container main -->
+        <div class="container-main">
+          <!-- Container cerca -->
+          <div class="container-cerca">
+            <form class="form-cerca" action="index.html" method="post">
+              <input type="text" placeholder="Search" name="" value="">
+              <button class="txt-dark" type="button" name="button">VAI</button>
+            </form>
+          </div>
+          <!-- /Container cerca -->
+
+          <!-- Container mails -->
+          <div class="container-mails">
+              <!-- Container unread counter -->
+              <div class="container-unreadcounter">
+                You have
+                <div class="evidenzia-arancione">30</div> <!-- prossima volta usa span -->
+                unread.
+              </div>
+
+              <!-- /Container unread counter -->
+
+              <!-- Container lista-mail -->
+              <div class="container-listamail">
+                <!-- Riga mail -->
+                <div class="mailsingola sfondo-lightgrey">
+                  <input type="checkbox" name="" value=""> <!-- Name e value non compilati volutamente -->
+                  <span class="txt-dark txt-bold"> &star; Oggetto della mail </span> <span class="txt-grey"> - Testo della mail </span>
+                </div>
+                <!-- /Riga mail -->
+
+                <!-- Riga mail -->
+                <div class="mailsingola sfondo-white">
+                  <input type="checkbox" name="" value=""> <!-- Name e value non compilati volutamente -->
+                  <span class="txt-dark txt-bold"> &star; Oggetto della mail </span> <span class="txt-grey"> - Testo della mail </span>
+                </div>
+                <!-- /Riga mail -->
+
+                <!-- Riga mail -->
+                <div class="mailsingola sfondo-lightgrey">
+                  <input type="checkbox" name="" value=""> <!-- Name e value non compilati volutamente -->
+                  <span class="txt-dark txt-bold"> &star; Oggetto della mail </span> <span class="txt-grey"> - Testo della mail </span>
+                </div>
+                <!-- /Riga mail -->
+
+                <!-- Riga mail -->
+                <div class="mailsingola sfondo-lightgrey">
+                  <input type="checkbox" name="" value=""> <!-- Name e value non compilati volutamente -->
+                  <span class="txt-dark txt-bold"> &star; Oggetto della mail </span> <span class="txt-grey"> - Testo della mail </span>
+                </div>
+                <!-- /Riga mail -->
+              </div>
+              <!-- /Container lista-mail -->
+          </div>
+          <!-- /Container mails -->
+        </div>
+        <!-- /Container main -->
+      </main>
+      <!-- /Main -->
+
+      <!-- Footer -->
+      <footer>
+        <!-- Container footer -->
+        <div class="container-footer">
+            GMail powered by Simone
+        </div>
+        <!-- /Container footer -->
+      </footer>
+      <!-- /Footer -->
+    </div>
+    <!-- /Container contet -->
+  </div>
+  <!-- /Container sfondo -->
+  </body>
+
+</html>
